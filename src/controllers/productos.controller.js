@@ -2,8 +2,8 @@ const { connectToDatabase } = require("../config/database");
 const { ObjectId } = require("mongodb");
 
 const newProductos = [
-  { nombre: "Nigger", precio: 123, categoria: "YUUU", stock: 15 },
-  { nombre: "bitch", precio: 123, categoria: "YUUU", stock: 15 },
+  { nombre: "hola", precio: 123, categoria: "YUUU", stock: 15 },
+  { nombre: "hola1", precio: 123, categoria: "YUUU", stock: 15 },
   { nombre: "hahaha", precio: 123, categoria: "YUUU", stock: 15 },
 ];
 const getProductos = async (req, res) => {
